@@ -1,0 +1,33 @@
+{
+   "name": "express-serverless",
+   "version": "1.0.0",
+   "description": "",
+   "main": "handler.js",
+   "scripts": {
+      "offline": "sls offline start --skipCacheInvalidation"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/luandevpro/seri-express-serverless.git"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "bugs": {
+      "url": "https://github.com/luandevpro/seri-express-serverless/issues"
+   },
+   "homepage": "https://github.com/luandevpro/seri-express-serverless#readme",
+   "dependencies": {
+      "bcrypt": "^3.0.5",
+      "cors": "^2.8.5",
+      "dotenv": "^7.0.0",
+      "express": "^4.16.4",
+      "jsonwebtoken": "^8.5.1",
+      "mongoose": "^5.4.21",
+      "passport": "^0.4.0",
+      "passport-jwt": "^4.0.0",
+      "passport-local": "^1.0.0",
+      "serverless-http": "^1.9.1",
+      "serverless-offline": "^4.9.3"
+   }
+}
